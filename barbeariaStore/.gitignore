@@ -1,0 +1,91 @@
+# Dependências
+node_modules/
+.pnp/
+.pnp.js
+.yarn/install-state.gz
+
+# Build e arquivos de produção
+dist/
+dist-ssr/
+build/
+*.local
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Cache de dependências
+.pnpm-store/
+.npm/
+
+# Arquivos de IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Arquivos de teste
+coverage/
+.nyc_output/
+.react-email/
+
+# Arquivos de TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Arquivos de ambiente do Vite
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+
+# Pastas de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Pastas de documentação gerada
+docs/
+api-docs/
+
+# Pastas de ferramentas
+.temp/
+.cache/
+.tmp/
+
+# ESLint
+.eslintcache
+
+# Arquivos de configuração locais
+.vite/
+.vercel/
+.netlify/
+.aws/
+
+# Chromium do Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
