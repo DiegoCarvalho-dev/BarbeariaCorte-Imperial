@@ -13,6 +13,14 @@ import {
 } from "lucide-react";
 import { ServiceItem } from "../types";
 
+// import das imagens 
+import CorteClassico from '../assets/images/corte-classico.jpg';
+import BarbaCompleta from '../assets/images/barba-completa.jpg';
+import Sobrancelha from '../assets/images/sobrancelha.jpg';
+import TratamentoCapilar from '../assets/images/tratamento-capilar.jpg';
+import Depilacao from '../assets/images/depilacao.jpg';
+import Acabamento from '../assets/images/acabamento.jpg';
+
 // Serviços com mais cards
 const services: ServiceItem[] = [
   {
@@ -21,7 +29,7 @@ const services: ServiceItem[] = [
     description:
       "Corte tradicional com técnicas modernas, respeitando o formato do seu rosto e seu estilo pessoal.",
     image:
-      "https://images.unsplash.com/photo-1599351431202-6e0000000000?q=80&w=800&auto=format&fit=crop",
+      CorteClassico,
     icon: <Scissors size={24} />,
     price: "R$ 55",
     duration: "45 min",
@@ -32,7 +40,7 @@ const services: ServiceItem[] = [
     description:
       "Experiência completa com toalha quente, óleos essenciais e acabamento perfeito com navalha.",
     image:
-      "https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=800&auto=format&fit=crop",
+      BarbaCompleta,
     icon: <Beaker size={24} />,
     price: "R$ 45",
     duration: "30 min",
@@ -43,7 +51,7 @@ const services: ServiceItem[] = [
     description:
       "Design de sobrancelha masculina com técnica de navalha, mantendo a naturalidade e simetria.",
     image:
-      "https://images.unsplash.com/photo-1503951914875-452162b7f30a?q=80&w=800&auto=format&fit=crop",
+      Sobrancelha,
     icon: <Sparkles size={24} />,
     price: "R$ 25",
     duration: "15 min",
@@ -54,7 +62,7 @@ const services: ServiceItem[] = [
     description:
       "Hidratação profunda e revitalização para cabelos e barba com produtos premium.",
     image:
-      "https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=800&auto=format&fit=crop",
+      TratamentoCapilar,
     icon: <Shirt size={24} />,
     price: "R$ 80",
     duration: "60 min",
@@ -65,7 +73,7 @@ const services: ServiceItem[] = [
     description:
       "Técnica profissional com cera ou linha para remoção dos pelos com precisão e conforto.",
     image:
-      "https://images.unsplash.com/photo-1593702295094-aea22597af65?q=80&w=800&auto=format&fit=crop",
+      Depilacao,
     icon: <Briefcase size={24} />,
     price: "R$ 35",
     duration: "20 min",
@@ -76,43 +84,10 @@ const services: ServiceItem[] = [
     description:
       "Detalhes finais que fazem a diferença: pêlos do nariz, orelhas e alinhamento da barba.",
     image:
-      "https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?q=80&w=800&auto=format&fit=crop",
+      Acabamento,
     icon: <Award size={24} />,
     price: "R$ 30",
     duration: "15 min",
-  },
-  {
-    id: 7,
-    title: "COMBO CORTE + BARBA",
-    description:
-      "O pacote completo para quem quer sair renovado. Corte e barba com produtos exclusivos.",
-    image:
-      "https://images.unsplash.com/photo-1503951914875-452162b7f30a?q=80&w=800&auto=format&fit=crop",
-    icon: <Star size={24} />,
-    price: "R$ 90",
-    duration: "75 min",
-  },
-  {
-    id: 8,
-    title: "HIDRATAÇÃO",
-    description:
-      "Tratamento profundo para cabelos e barba com máscaras importadas e massagem relaxante.",
-    image:
-      "https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=800&auto=format&fit=crop",
-    icon: <Coffee size={24} />,
-    price: "R$ 65",
-    duration: "40 min",
-  },
-  {
-    id: 9,
-    title: "PÉS E MÃOS",
-    description:
-      "Cuidados completos com unhas e cutículas, incluindo hidratação e massagem final.",
-    image:
-      "https://images.unsplash.com/photo-1593702295094-aea22597af65?q=80&w=800&auto=format&fit=crop",
-    icon: <Clock size={24} />,
-    price: "R$ 50",
-    duration: "35 min",
   },
 ];
 
