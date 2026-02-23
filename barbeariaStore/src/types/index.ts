@@ -25,6 +25,8 @@ export interface BlogPost {
   excerpt: string;
   image: string;
   featured?: boolean;
+  author?: string;
+  readTime?: string;
 }
 
 export interface NavItem {
