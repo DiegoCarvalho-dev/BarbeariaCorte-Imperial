@@ -5,7 +5,7 @@ import { BlogPost } from "../types";
 
 import destaqueImg from "../assets/images/destaque2.jpg";
 import tendenciaImg from "../assets/images/acabamento.jpg";
-import cuidadosImg from "../assets/images/barb.jpg";
+import cuidadosImg from "../assets/images/barba.jpg";
 import corteImg from "../assets/images/corte-classico.jpg";
 import produtoImg from "../assets/images/produto.jpg";
 
