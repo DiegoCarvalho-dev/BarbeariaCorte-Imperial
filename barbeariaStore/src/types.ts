@@ -17,10 +17,13 @@ export interface BenefitItem {
 }
 
 export interface BlogPost {
+  id: number;
   title: string;
   date: string;
   category: string;
   excerpt: string;
   image: string;
+  author?: string;
+  readTime?: string;
   featured?: boolean;
 }
