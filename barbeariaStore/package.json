@@ -1,11 +1,14 @@
 {
-  "name": "la-mafia-barbearia-clone",
+  "name": "corte-imperial-barbearia",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://Diego-Carvalho.github.io/BarbeariaCorte-Imperial/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.563.0",
