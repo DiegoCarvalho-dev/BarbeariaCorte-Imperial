@@ -93,7 +93,6 @@ const services: ServiceItem[] = [
 
 const Services: React.FC = () => {
   const [isHovering, setIsHovering] = useState(false);
-  const itemsPerView = 3;
 
   // duplicar 12 vezes para criar um carrossel  infinito.
   const duplicatedServices = [
@@ -143,8 +142,7 @@ const Services: React.FC = () => {
               {duplicatedServices.map((service, index) => (
                 <div
                   key={`${service.id}-${index}`}
-                  className="flex-shrink-0 px-3"
-                  style={{ width: `${100 / itemsPerView}%` }}
+                  className="flex-shrink-0 px-3 w-full md:w-1/2 lg:w-1/3"
                 >
                   <div className="group relative h-96 overflow-hidden rounded-lg border border-zinc-800 hover:border-mafia-red transition-all duration-500 hover:shadow-2xl hover:shadow-mafia-red/20">
                     {/* Background Image */}
